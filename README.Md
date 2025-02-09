@@ -38,8 +38,6 @@
   - querydsl
   - jdbcTemplate
   - mybatis
-- redis
-- kafka
 - aop
   - proxy
   - aspect
@@ -59,6 +57,7 @@
   - spring security
   - jwt
   - CORS
+  - oauth2
 - monitor
   - spring actuator
   - prometheus
@@ -66,5 +65,15 @@
   - APM 핀포인트
 - test
   - mokito
+- 배치
+  - spring batch
+  - quartz
+- redis
+- kafka
+- mongo
+- elasticsearch
+- etc
+  - validation
+  - web socket
 
 ---
