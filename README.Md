@@ -1,4 +1,4 @@
-### 헬로 자바 프로젝트
+### 웰컴 자바 프로젝트
 - 자주 사용하는 코드 예제 프로젝트
 - 보조 프로젝트가 필요한 경우 hellojava-xxx
 - java 11 사용
@@ -12,6 +12,9 @@
 
 ### done
 - asdf
+
+### todo do it
+- 프로젝트명 변경 : hellojava => welcomejava
 
 ### todo
 - json
