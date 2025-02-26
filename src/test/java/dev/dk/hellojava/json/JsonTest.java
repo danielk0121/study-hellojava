@@ -22,16 +22,10 @@ public class JsonTest {
 
     /**
      * root 가 객체인 json 처리
-     *   객체 to json 문자열
-     *   json 문자열 to 객체
-     *
      * root 가 배열인 json 처리
-     *   배열 to json 문자열
-     *   json 문자열 to 배열
      *
      * 1. 잭슨 jsonObject 사용
      * 2. GSON 사용
-     * 3. 소스포지 json 사용 => 다음에
      *
      * 주의사항
      * 검증 코드 작성
