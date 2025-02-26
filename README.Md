@@ -18,11 +18,10 @@
 
 ### todo
 - json
-  - GSON
-  - json object 처리
-  - json array 처리
-  - 객체 json 처리
-  - 베열 json 처리
+  - root 가 객체인 json 처리
+  - root 가 배열인 json 처리
+  - 잭슨 jsonObject 사용
+  - GSON 사용
 - time format
   - 시간 포맷 클래스, 문자열 처리
   - http request response 시간 문자열 처리
