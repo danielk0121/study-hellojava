@@ -10,21 +10,22 @@
 - 성능 테스트 환경 추가
 - 멀티 인스턴스 경합 테스트 예제 추가
 
-### done
-- asdf
-
-### todo do it
-- 프로젝트명 변경 : hellojava => welcomejava
-
-### todo
+### todo list
+- == 프로젝트명 변경 : hellojava => welcomejava
 - json
   - root 가 객체인 json 처리
   - root 가 배열인 json 처리
   - 잭슨 jsonObject 사용
   - GSON 사용
-- time format
-  - 시간 포맷 클래스, 문자열 처리
-  - http request response 시간 문자열 처리
+  - == json 수정
+  - == json 탐색
+- 시간 타입 처리
+  - 시간 타입 클래스
+  - 타임존
+  - 시간 문자열 처리
+- 스프링 웹에서 시간 문자열 처리
+  - == http request 에서 시간 문자열 처리
+  - == http response 에서 시간 문자열 처리
 - 문자열 처리
   - 문자열 리버스
   - 문자열 대소문자 변경
@@ -33,10 +34,10 @@
   - 정규식 리플레이스
   - 문자열 정렬
 - 암호화
-  - 인코딩, 디코딩
-  - 단방향 암복호
-  - 양방향 암복호
-  - 시드 암복호
+  - == 인코딩, 디코딩
+  - == 단방향 암복호
+  - == 양방향 암복호
+  - == 시드 암복호
 - http client
   - HttpClient
   - OkHttp
@@ -44,9 +45,9 @@
   - WebClient
   - feignClient (OpenFeign)
 - file 처리
-  - file read write copy delete
-  - directory read write copy delete
-  - tar gz zip
+  - 파일, 읽기, 쓰기, 복사, 삭제
+  - 폴더, 읽기, 쓰기, 복사, 삭제
+  - 압축, tar, gz, zip
 - db
   - jpa
   - querydsl
