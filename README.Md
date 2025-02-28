@@ -1,6 +1,6 @@
 ### 웰컴 자바 프로젝트
 - 자주 사용하는 코드 예제 프로젝트
-- 보조 프로젝트가 필요한 경우 hellojava-xxx
+- 보조 프로젝트가 필요한 경우 welcomejava-xxx
 - java 11 사용
 - spring boot 2.x 사용
 - 추후 hellojava17 생성 예정
@@ -22,12 +22,10 @@
 - 시간 타입 처리
   - 시간 타입 클래스
   - 타임존
-  - 시간 문자열 처리
-- 스프링 웹에서 시간 문자열 처리
-  - == http request 에서 시간 문자열 처리
-  - == http response 에서 시간 문자열 처리
+  - 시간 문자열 포맷, 파싱
+  - 시간 문자열 처리, 타임존 포함 문자열
 - 문자열 처리
-  - 문자열 리버스
+  - ! 문자열 리버스
   - 문자열 대소문자 변경
   - 한 문자열 리플레이스
   - 여러 문자열 리플레이스
@@ -38,16 +36,19 @@
   - == 단방향 암복호
   - == 양방향 암복호
   - == 시드 암복호
+- file 처리
+  - == 파일, 읽기, 쓰기, 복사, 삭제
+  - == 폴더, 읽기, 쓰기, 복사, 삭제
+  - == 압축, tar, gz, zip
 - http client
   - HttpClient
   - OkHttp
   - RestTemplate
   - WebClient
   - feignClient (OpenFeign)
-- file 처리
-  - 파일, 읽기, 쓰기, 복사, 삭제
-  - 폴더, 읽기, 쓰기, 복사, 삭제
-  - 압축, tar, gz, zip
+- 스프링 웹에서 시간 문자열 처리
+  - == http request 에서 시간 문자열 처리
+  - == http response 에서 시간 문자열 처리
 - db
   - jpa
   - querydsl
@@ -68,7 +69,7 @@
   - swagger
   - open api
   - spring rest doc
-- security
+- 보안 security
   - spring security
   - jwt
   - CORS
