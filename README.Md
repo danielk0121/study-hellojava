@@ -74,12 +74,12 @@
   - jwt
   - CORS
   - oauth2
-- monitor
+- 모니터링 monitor
   - spring actuator
   - prometheus
   - grafana
   - APM 핀포인트
-- test
+- 테스트 코드
   - mokito
 - 배치
   - spring batch
