@@ -1,4 +1,4 @@
-### 웰컴 자바 프로젝트
+### OO 자바 프로젝트
 - 자주 사용하는 코드 예제 프로젝트
 - 보조 프로젝트가 필요한 경우 welcomejava-xxx
 - java 11 사용
@@ -11,7 +11,7 @@
 - 멀티 인스턴스 경합 테스트 예제 추가
 
 ### todo list
-- == 프로젝트명 변경 : hellojava => welcomejava
+- ! 프로젝트명 변경 : hellojava => hijava, welcomejava ??
 - json
   - root 가 객체인 json 처리
   - root 가 배열인 json 처리
@@ -41,7 +41,7 @@
   - == 폴더, 읽기, 쓰기, 복사, 삭제
   - == 압축, tar, gz, zip
 - http client
-  - HttpClient
+  - ! HttpClient
   - OkHttp
   - RestTemplate
   - WebClient
