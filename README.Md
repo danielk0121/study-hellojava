@@ -25,6 +25,7 @@
   - 타임존
   - 시간 문자열 포맷, 파싱
   - 시간 문자열 처리, 타임존 포함 문자열
+  - [timetype.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Ftimeformat%2Ftimetype.md)
 - 문자열 처리
   - ! 문자열 리버스
   - 문자열 대소문자 변경
@@ -32,6 +33,7 @@
   - 여러 문자열 리플레이스
   - 정규식 리플레이스
   - 문자열 정렬
+  - [string.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fstring%2Fstring.md)
 - http client
   - ! HttpClient
   - OkHttp
@@ -87,6 +89,7 @@
   - IntStream 으로 반복문 대신하기
   - IntStream.collect()
   - etc todo
+  - [stream.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fstream%2Fstream.md)
 - 암호화
   - == 인코딩, 디코딩
   - == 단방향 암복호
