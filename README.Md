@@ -11,13 +11,13 @@
 - 멀티 인스턴스 경합 테스트 예제 추가
 
 ### todo list
-- ! 프로젝트명 변경 : hellojava => hijava, welcomejava ??
+- ! 프로젝트명 변경 : hellojava => hijava, welcomejava, memoryjava ??
 - json
   - root 가 객체인 json 처리
   - root 가 배열인 json 처리
   - 잭슨 jsonObject 사용
   - GSON 사용
-  - == json 수정
+  - == json 생성, 수정, 파싱
   - == json 탐색
 - 시간 타입 처리
   - 시간 타입 클래스
@@ -31,15 +31,6 @@
   - 여러 문자열 리플레이스
   - 정규식 리플레이스
   - 문자열 정렬
-- 암호화
-  - == 인코딩, 디코딩
-  - == 단방향 암복호
-  - == 양방향 암복호
-  - == 시드 암복호
-- file 처리
-  - == 파일, 읽기, 쓰기, 복사, 삭제
-  - == 폴더, 읽기, 쓰기, 복사, 삭제
-  - == 압축, tar, gz, zip
 - http client
   - ! HttpClient
   - OkHttp
@@ -91,5 +82,18 @@
 - etc
   - validation
   - web socket
+- 자바 스트림 사용 (틈틈이 추가)
+  - IntStream 으로 반복문 대신하기
+  - IntStream.collect()
+  - etc todo
+- 암호화
+  - == 인코딩, 디코딩
+  - == 단방향 암복호
+  - == 양방향 암복호
+  - == 시드 암복호
+- file 처리
+  - == 파일, 읽기, 쓰기, 복사, 삭제
+  - == 폴더, 읽기, 쓰기, 복사, 삭제
+  - == 압축, tar, gz, zip
 
 ---
