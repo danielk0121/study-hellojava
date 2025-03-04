@@ -7,7 +7,7 @@ IntStream.rangeClosed(1,10)
 ```
 
 ---
-- IntStream.collect() 에러 코드
+- IntStream.collect() 에러 발생 예시
 ```
 //IntStream.collect() 는 파라미터가 3개임
 //Integer Stream 으로 변경하면 collect() 파라미터가 1개임
