@@ -8,9 +8,9 @@
 - 2단계
 - 숫자 문자열을 숫자 타입으로 변환
 - 랜덤 문자, 랜덤 숫자 문자열 생성
-- ! 문자열 리버스
+- 문자열 리버스
 - 문자열 셔플
-- 문자열 정렬
+- ! 문자열 정렬
 - 문자열 압축
 
 ---
@@ -51,6 +51,7 @@ char ch = str.charAt(idx);
 
 ---
 - 문자열 리버스
+- StringBuilder.reverse()
 ```java
 //for 문 idx 사용 등의 방법들은 버퍼가 없어서 느림
 // StringBuilder reverse() 사용을 추천
@@ -58,5 +59,17 @@ String rStr = new StringBuilder("asdf").reverse(); //fdsa
 ```
 
 ---
+- 문자열 셔플
+- Collections.shuffle(list)
+- str.split("") => 빈 문자열로 split 해서 배열로 만듬
+- String.join("", list) => 빈 문자열로 join 해서 배열을 문자열로 만듬
+```java
+String str = "asdf";
+List<String> list = Arrays.asList(str.split(""));
+Collections.shuffle(list);
+String shuffled = String.join("", list);
+```
 
+---
+- 
 
