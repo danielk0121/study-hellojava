@@ -62,5 +62,8 @@ log.info("zonedDateTime={}", zonedDateTime)
 - xxxDateTime 예시 코드
 - TimeTypeTest.java 파일 참고
 
+---
+- todo 
+- 자바 파일을 열지 않고도, 한눈에 보이도록 md 파일에 코드로 정리
 
 

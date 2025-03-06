@@ -17,8 +17,8 @@
   - root 가 배열인 json 처리
   - 잭슨 jsonObject 사용
   - GSON 사용
-  - == json 생성, 수정, 파싱
-  - == json 탐색
+  - // json 생성, 수정, 파싱
+  - // json 탐색
   - [json.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fjson%2Fjson.md)
 - 시간 타입 처리
   - 시간 타입 클래스
@@ -41,8 +41,8 @@
   - WebClient
   - feignClient (OpenFeign)
 - 스프링 웹에서 시간 문자열 처리
-  - == http request 에서 시간 문자열 처리
-  - == http response 에서 시간 문자열 처리
+  - // http request 에서 시간 문자열 처리
+  - // http response 에서 시간 문자열 처리
 - db
   - jpa
   - querydsl
@@ -87,17 +87,17 @@
   - web socket
 - 자바 스트림 사용 (틈틈이 추가)
   - IntStream 으로 반복문 대신하기
-  - IntStream.collect()
+  - IntStream.collect() 고찰
   - etc todo
   - [stream.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fstream%2Fstream.md)
 - 암호화
-  - == 인코딩, 디코딩
-  - == 단방향 암복호
-  - == 양방향 암복호
-  - == 시드 암복호
+  - // 인코딩, 디코딩
+  - // 단방향 암복호
+  - // 양방향 암복호
+  - // 시드 암복호
 - file 처리
-  - == 파일, 읽기, 쓰기, 복사, 삭제
-  - == 폴더, 읽기, 쓰기, 복사, 삭제
-  - == 압축, tar, gz, zip
+  - // 파일, 읽기, 쓰기, 복사, 삭제
+  - // 폴더, 읽기, 쓰기, 복사, 삭제
+  - // 압축, tar, gz, zip
 
 ---
