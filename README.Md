@@ -1,17 +1,25 @@
 ### OO 자바 프로젝트
 - 자주 사용하는 코드 예제 프로젝트
-- 보조 프로젝트가 필요한 경우 welcomejava-xxx
+- 보조 프로젝트가 필요한 경우 OOOjava-xxx
 - java 11 사용
 - spring boot 2.x 사용
-- 추후 hellojava17 생성 예정
+- 추후 java 17 기반으로 추가 생성
 
 ### 작은 목표
-- 2코어 실행
+- 2코어 저성능 실행
 - 성능 테스트 환경 추가
 - 멀티 인스턴스 경합 테스트 예제 추가
 
 ### todo list
-- ! 프로젝트명 변경 : hellojava => hijava, welcomejava, memoryjava ??
+- ! 프로젝트 이름 변경
+  - 후보
+    - hellojava
+    - hijava
+    - welcomejava
+    - memoryjava
+    - levelingjava
+    - volcanicjava
+    - recordjava
 - json
   - root 가 객체인 json 처리
   - root 가 배열인 json 처리
@@ -83,6 +91,7 @@
 - mongo
 - elasticsearch
 - etc
+  - 캐시
   - validation
   - web socket
 - 자바 스트림 사용 (틈틈이 추가)
