@@ -2,8 +2,12 @@ package dev.dk.hellojava.string;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -25,6 +29,7 @@ public class StringReverseTest {
         assertThat(reverse2("asdf")).isEqualTo("fdsa");
         assertThat(reverse3("asdf")).isEqualTo("fdsa");
         assertThat(reverse4("asdf")).isEqualTo("fdsa");
+        assertThat(reverse5("asdf")).isEqualTo("fdsa");
     }
 
     @Test
@@ -33,14 +38,16 @@ public class StringReverseTest {
         String str = "asdfqwer1234asdfqwer1234asdfqwer1234";
 
         //StringBuffer.reverse() 가 3배, 20배 빠르다
-        //for           , term ms:  663
-        //sb.reverse()  , term ms:  190
-        //IntStream rIdx, term ms: 4455
-        //String chars(), term ms: 2125
+        //for           , term ms:  661
+        //sb.reverse()  , term ms:  201
+        //IntStream rIdx, term ms: 3745
+        //String chars(), term ms: 2113
+        //list reverse  , term ms: 4654
         runLoop("for           ", () -> reverse1(str));
         runLoop("sb.reverse()  ", () -> reverse2(str));
         runLoop("IntStream rIdx", () -> reverse3(str));
         runLoop("String chars()", () -> reverse4(str));
+        runLoop("list reverse  ", () -> reverse5(str));
     }
 
     void runLoop(String name, Runnable runnable) {
@@ -88,4 +95,18 @@ public class StringReverseTest {
                 (builder1, builder2) -> builder1.insert(0, builder2) //combiner
         ).toString();
     }
+
+    //Collections.reverse() 사용 => 가장 느림
+    String reverse5(String str) {
+        //List reverse 사용
+        char[] charArray = str.toCharArray();
+        List<String> list = new ArrayList<>();
+        for (char ch : charArray) {
+            list.add(String.valueOf(ch));
+        }
+
+        Collections.reverse(list); //reverse
+        return String.join("", list);
+    }
+
 }
