@@ -52,6 +52,11 @@ char ch = str.charAt(idx);
 ---
 - 문자열 리버스
 ```java
-
+//for 문 idx 사용 등의 방법들은 버퍼가 없어서 느림
+// StringBuilder reverse() 사용을 추천
+String rStr = new StringBuilder("asdf").reverse(); //fdsa
 ```
+
+---
+
 
