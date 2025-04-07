@@ -10,13 +10,13 @@
 - 랜덤 문자, 랜덤 숫자 문자열 생성
 - 문자열 리버스
 - 문자열 셔플
-- ! 문자열 정렬
-- 문자열 압축
+- 문자열 정렬 => 제거
+- ! 문자열 압축
 
 ---
 - 3단계
 - 위 작업들을 스트림으로 처리
-- CharSequence, String 차이
+- CharSequence, String 차이 정리
 
 ---
 - String 기본 함수 정리
@@ -71,5 +71,6 @@ String shuffled = String.join("", list);
 ```
 
 ---
-- 
+- 문자열 정렬
+
 
