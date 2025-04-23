@@ -43,6 +43,7 @@
   - 문자열 정렬
   - [string.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fstring%2Fstring.md)
 - http client
+  - GET, POST, PUT, DELETE 예제 추가
   - ! HttpClient
   - OkHttp
   - RestTemplate

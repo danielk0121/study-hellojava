@@ -36,6 +36,9 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.12.1' //2025.01.31
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // HttpComponentsClientHttpRequestFactory 를 사용하기 위해서 추가, PATCH METHOD 를 위해 필요
+    implementation 'org.apache.httpcomponents:httpclient'
 }
 
 test {
