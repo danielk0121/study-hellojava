@@ -11,7 +11,7 @@
 - 멀티 인스턴스 경합 테스트 예제 추가
 
 ### todo list
-- ! 프로젝트 이름 변경
+- // 프로젝트 이름 변경
   - 후보
     - hellojava
     - hijava
@@ -20,36 +20,37 @@
     - levelingjava
     - volcanicjava
     - recordjava
-- json
-  - root 가 객체인 json 처리
-  - root 가 배열인 json 처리
-  - 잭슨 jsonObject 사용
-  - GSON 사용
+    - dikijava
+- == json
+  - == root 가 객체인 json 처리
+  - == root 가 배열인 json 처리
+  - == 잭슨 jsonObject 사용
+  - == GSON 사용
   - // json 생성, 수정, 파싱
   - // json 탐색
   - [json.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fjson%2Fjson.md)
-- 시간 타입 처리
-  - 시간 타입 클래스
-  - 타임존
-  - 시간 문자열 포맷, 파싱
-  - 시간 문자열 처리, 타임존 포함 문자열
+- == 시간 타입 처리
+  - == 시간 타입 클래스
+  - == 타임존
+  - == 시간 문자열 포맷, 파싱
+  - == 시간 문자열 처리, 타임존 포함 문자열
   - [timetype.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Ftimeformat%2Ftimetype.md)
-- 문자열 처리
-  - ! 문자열 리버스
-  - 문자열 대소문자 변경
-  - 한 문자열 리플레이스
-  - 여러 문자열 리플레이스
-  - 정규식 리플레이스
-  - 문자열 정렬
+- == 문자열 처리
+  - // 문자열 리버스
+  - == 문자열 대소문자 변경
+  - == 한 문자열 리플레이스
+  - == 여러 문자열 리플레이스
+  - == 정규식 리플레이스
+  - == 문자열 정렬
   - [string.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fstring%2Fstring.md)
 - http client
-  - GET, POST, PUT, DELETE 예제 추가
-  - ! HttpClient
-  - OkHttp
-  - RestTemplate
+  - == GET, POST, PUT, DELETE 예제 추가
+  - == RestTemplate
   - WebClient
+  - OkHttp
   - feignClient (OpenFeign)
-- 스프링 웹에서 시간 문자열 처리
+  - [httpclient.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fhttpclient%2Fhttpclient.md)
+- // 스프링 웹에서 시간 문자열 처리
   - // http request 에서 시간 문자열 처리
   - // http response 에서 시간 문자열 처리
 - db
@@ -100,12 +101,12 @@
   - IntStream.collect() 고찰
   - etc todo
   - [stream.md](src%2Ftest%2Fjava%2Fdev%2Fdk%2Fhellojava%2Fstream%2Fstream.md)
-- 암호화
+- // 암호화
   - // 인코딩, 디코딩
   - // 단방향 암복호
   - // 양방향 암복호
   - // 시드 암복호
-- file 처리
+- // file 처리
   - // 파일, 읽기, 쓰기, 복사, 삭제
   - // 폴더, 읽기, 쓰기, 복사, 삭제
   - // 압축, tar, gz, zip
