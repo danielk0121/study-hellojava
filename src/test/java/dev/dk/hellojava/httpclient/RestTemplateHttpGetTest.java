@@ -2,9 +2,9 @@ package dev.dk.hellojava.httpclient;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import dev.dk.hellojava.httpclient.domain.Korean;
+import dev.dk.hellojava.httpclient.domain.User;
+import dev.dk.hellojava.httpclient.domain.UserListWrapper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -22,7 +22,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
@@ -42,30 +41,6 @@ public class RestTemplateHttpGetTest {
      * 이슈5 : timeout 설정
      * 이슈6 : POJO 객체 응답 시, UNKNOWN_PROPERTIES 에러
      */
-
-    @Getter
-    @Setter
-    @ToString
-    static class User {
-        Long id;
-        String name;
-    }
-
-    @Getter
-    @Setter
-    @ToString
-    static class UserListWrapper {
-        List<User> users = new ArrayList<>();
-    }
-
-    @Getter
-    @Setter
-    @ToString
-    static class Korean {
-        Long id;
-        String name;
-//        String asdf; //FAIL_ON_UNKNOWN_PROPERTIES 테스트 목적
-    }
 
     @Test
     @DisplayName("getForObject() 사용")
