@@ -1,12 +1,13 @@
 ## 카프카 온라인
 
-- 목적
-  - saas 서비스 이용
+---
+- 문서 목적
+  - 카프카를 필요할 때만 사용하고, 쉽고 빠르게 구축 및 삭제
+  - saas 서비스
   - 무설치
-  - 클라우드 운영
   - 무료 라이센스
-  - 무료 운영 비용 혹은 저비용
-  - 클라이언트 사이드 테스트 목적
+  - 클라이언트 사이드 테스트 주목적
+  - 카프카 생태계 플러그인 테스트
 
 ---
 - 구글링 조사
@@ -30,11 +31,14 @@
     - 아파치 카프카와 차이점 존재 (기능, 명령어 등)
   - aws MSK (amazon Managed Streaming for apache Kafka)
     - 구글링 게시글 많음
+    - [여기어때 기술 블로그 - MSK 도입](https://techblog.gccompany.co.kr/aws-msk-part1-msk-%EB%8F%84%EC%9E%85-%EC%97%AC%EC%A0%95-b000cbea5c02)
+    - [deok 블로그 - Spring Boot, Kafka (Amazon MSK) 를 이용한 Event Driven Architecture 예](https://sharplee7.tistory.com/m/156)
     - 브로커 인스턴스 고비용 부담 (대략 2달러 / 10시간)
     - vpc 부터 subnet 등 설정이 필요함
 - 설치형
   - 아파치 카프카
   - 컨플루언트 카프카 설치형
+    - [북극곰 블로그 - 컨플루언트 플랫폼 설치](https://p-bear.tistory.com/35)
 
 ---
 - 진행 계획
@@ -42,5 +46,7 @@
   - 복잡하면 aws msk 시도
   - 복잡하거나 오래 걸리면 비용 문제로 msk 포기
   - 컨플루언트 설치형 시도
+  - 아파치 카프카 설치형 시도
+  - 카프카 생태계 테스트 (매니저 웹 등)
 
 ---
